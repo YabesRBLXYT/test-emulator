@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jsGB Emulator</title>
+    <style>
+        body { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            background-color: #333; 
+        }
+        canvas { 
+            border: 2px solid #000; 
+        }
+    </style>
+</head>
+<body>
+    <canvas id="gbaCanvas" width="240" height="160"></canvas>
+    <input type="file" id="romLoader" accept=".gba" />
+    <script src="js/jsGB.js"></script>
+</body>
+</html>
